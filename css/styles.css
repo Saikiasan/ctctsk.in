@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@media screen and (max-width: 768px) {
+  .des-txt {
+    font-size: 10px !important;
+    color: #fff;
+  }
+}
+
+
+:root {
+  --neon-1: #0ff74d;
+  --white: #fff;
+  --gray: #545353;
+
+  --card-border: var(--gray) 1px solid;
+  --card-radius: 10px;
+  --card-shadow: none;
+  --card-padding: 20px 0px;
+  --card-margin: 20px 0px;
+}
+
+.cards-x .card {
+  background: transparent
+}
+
+.text-neon-1 {
+  color: var(--neon-1) !important;
+}
+
+.cards-x h3 {
+  color: var(--neon-1);
+  font-family: 'Dancing Script', cursive;
+  font-size: 44px !important;
+}
+
+.cards-x p {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.cards-x .p:before,
+.cards-x .p:after {
+  position: absolute;
+}
+
+.cards-x p:before {
+  /* left: 0; */
+  /* top: 0px; */
+  content: "--- ";
+}
+
+.cards-x p:after {
+  /* left: 0; */
+  /* top: 00px; */
+  content: " ---";
+}
+
+.cards-x .text-center {
+  border: var(--card-border);
+  border-radius: var(--card-radius);
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  padding: var(--card-padding);
+  margin: var(--card-margin);
+}
+
+.cards-x .text-center .fa {
+  color: #3677d1;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-x .text-center {
+    --card-border: none
+  }
+}
+
+.close-dev-btn {
+  background: transparent;
+  border: none;
+  border-radius: 100%;
+}
+
+.close-dev-btn:hover img {
+  filter: hue-rotate(2.1rad)
+}
+
+.close-dev-btn img {
+  --size-a: 100px;
+  height: var(--size-a);
+  width: var(--size-a);
+  border-radius: 100%;
+  transition: all .8s ease-in-out;
+}
+
+.developedby {
+  color: #555;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}

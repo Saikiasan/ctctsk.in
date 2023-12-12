@@ -1,0 +1,72 @@
+{
+  "logo": {
+    "url": "./?page=home",
+    "imageSrc": "admin/assets/img/logo/android-chrome-192x192.png"
+  },
+  "brand": {
+    "title": "C.T. College",
+    "subtitle": "Affiliated to Dibrugarh University & ASTU"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "url": "./?page=home"
+    },
+    {
+      "label": "About",
+      "submenu": [
+        { "label": "About Us", "url": "./?page=about" },
+        { "label": "Eco Club", "url": "./?page=eco_club" },
+        { "label": "Site Made By", "url": "https://saikiasan.github.io" }
+      ]
+    },
+    {
+      "label": "Academics",
+      "submenu": [
+        { "label": "Courses Offered", "url": "./?page=courses" },
+        { "label": "Admission Procedure", "url": "./?page=admision_procedure" }
+      ]
+    },
+    {
+      "label": "Administration",
+      "submenu": [
+        { "label": "Management", "url": "./?page=management" },
+        { "label": "Principal's Desk", "url": "./?page=principal_desk" },
+        { "label": "Teaching Staff", "url": "./?page=teaching_staff" },
+        { "label": "Office Staff", "url": "./?page=office_staff" }
+      ]
+    },
+    {
+      "label": "Facilities",
+      "submenu": [
+        { "label": "Library", "url": "./?page=library" },
+        { "label": "Hostel", "url": "./?page=hostel" },
+        { "label": "Sports", "url": "./?page=sports" },
+        { "label": "Canteen", "url": "./?page=canteen" }
+      ]
+    },
+    {
+      "label": "Events",
+      "submenu": [
+        { "label": "Lucky", "url": "./?page=event0129" }
+      ]
+    },
+    {
+      "label": "Achievement",
+      "submenu": [
+        { "label": "Principal's Achievement", "url": "./?page=principal_achievement" },
+        { "label": "Student's Achievement", "url": "./?page=student_achievement" },
+        { "label": "Teacher's Achievement", "url": "./?page=teacher_achievement" },
+        { "label": "Employee Achievement", "url": "./?page=employee_achievement" }
+      ]
+    },
+    {
+      "label": "Gallery",
+      "url": "./?page=gallery"
+    },
+    {
+      "label": "Contact",
+      "url": "./?page=contact"
+    }
+  ]
+}

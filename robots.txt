@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Allow: *
+Disallow: /admin/
+Sitemap: https://ctctsk.in/sitemap.xml
